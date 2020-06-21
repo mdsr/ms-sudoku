@@ -1,0 +1,27 @@
+{
+  "name": "ms-sudoku",
+  "version": "1.0.0",
+  "description": "A simple sudoku solver library using backtracking",
+  "main": "sudoku.js",
+  "scripts": {
+    "test": "mocha sudoku.spec.js"
+  },
+  "keywords": [
+    "sudoku",
+    "algorithm",
+    "backtracking"
+  ],
+  "author": "Mudassir Shariff",
+  "repository": {
+    "type": "git",
+    "url": "github:realmudassir/ms-sudoku"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.3.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^8.0.1"
+  }
+}
